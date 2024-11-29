@@ -1,8 +1,5 @@
 !
-!
-
-!
-! Last configuration change at 14:41:19 UTC Fri Nov 29 2024
+! Last configuration change at 18:42:58 UTC Fri Nov 29 2024
 upgrade fpd auto
 version 15.1
 service timestamps debug datetime msec
@@ -31,23 +28,25 @@ ip dhcp excluded-address 172.25.13.194 172.25.13.202
 !
 ip dhcp pool VLAN2
  network 172.25.12.0 255.255.255.0
- default-router 172.25.12.1 
- dns-server 172.25.12.0 172.28.82.0 
+ default-router 172.25.12.1
+ dns-server 203.107.191.250
 !
 ip dhcp pool VLAN4
  network 172.25.13.0 255.255.255.128
- default-router 172.25.13.1 
- dns-server 172.25.12.0 172.28.82.0 
+ default-router 172.25.13.1
+ dns-server 203.107.191.250
 !
 ip dhcp pool VLAN6
  network 172.25.13.128 255.255.255.192
- default-router 172.25.13.129 
- dns-server 172.25.12.0 172.28.82.0 
+ default-router 172.25.13.129
+ dns-server 203.107.191.250
 !
 ip dhcp pool VLAN8
  network 172.25.13.192 255.255.255.224
- default-router 172.25.13.193 
- dns-server 172.25.12.0 172.28.82.0 
+ default-router 172.25.13.193
+ dns-server 203.107.191.250
+!
+ip dhcp pool VLAN
 !
 !
 no ip domain lookup
@@ -70,7 +69,7 @@ redundancy
 !
 !
 ip tcp synwait-time 5
-! 
+!
 !
 !
 !

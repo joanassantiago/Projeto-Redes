@@ -1,10 +1,4 @@
 !
-!
-!
-!
-!
-
-!
 version 12.4
 service timestamps debug datetime msec
 service timestamps log datetime msec
@@ -50,7 +44,7 @@ vtp file nvram:vlan.dat
 !
 !
 ip tcp synwait-time 5
-! 
+!
 !
 !
 !
@@ -183,7 +177,7 @@ control-plane
 !
 !
 !
-banner exec 
+banner exec ^C
 
 ***************************************************************
 This is a normal Router with a SW module inside (NM-16ESW)
@@ -198,7 +192,7 @@ Warning: You are using an old IOS image for this router.
 Please update the IOS to enable the "macro" command!
 ***************************************************************
 
-
+^C
 !
 line con 0
  exec-timeout 0 0
