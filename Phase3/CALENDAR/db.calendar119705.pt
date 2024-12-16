@@ -1,0 +1,20 @@
+$TTL 604800
+@       IN      SOA     ns1.calendar119705.pt. adm.calendar119705.pt. (
+                        604800          ; Serial
+                        86400           ; Refresh
+                        2419200         ; Retry
+                        604800          ; Expire
+                        )               ; Negative Cache TTL
+
+@       IN      NS      ns1.arqredes.pt.
+
+ns1     IN      A       203.107.191.250
+@       IN      A       203.107.191.250
+www     IN      A       203.107.191.250
+siteA   IN      A       203.107.191.250
+January IN      A       172.25.12.2
+March   IN      A       203.107.191.226
+April   IN      A       172.25.13.2
+June    IN      A       203.107.191.194
+July    IN      A       172.25.13.130
+Horoscope IN    A       203.18.92.114

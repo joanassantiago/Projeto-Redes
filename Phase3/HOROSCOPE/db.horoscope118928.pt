@@ -1,0 +1,22 @@
+$TTL    604800
+$ORIGIN horoscope118928.pt.
+@       IN      SOA     ns1.horoscope118928.pt. adm.horoscope118928.pt. (
+                        2       ; Serial
+                        604800  ; Refresh
+                        86400   ; Retry
+                        2419200 ; Expire
+                        604800) ; Negative Cache TTL
+        IN      NS      ns1.horoscope118928.pt.
+ns1     IN      A       203.18.92.114
+@       IN      A       203.18.92.114
+www     IN      A       203.18.92.114
+siteA   IN      A       203.18.92.114
+Taurus          IN      A       203.18.92.2
+Gemini          IN      A       172.28.83.2
+Leo             IN      A       203.18.92.34
+Scorpius        IN      A       172.28.83.162
+Capricornus     IN      A       203.18.92.98
+Aquarius        IN      A       203.18.92.82
+Pisces          IN      A       203.18.92.66
+Calendar        IN      A       203.107.191.250
+
